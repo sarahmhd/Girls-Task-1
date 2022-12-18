@@ -1,0 +1,59 @@
+
+/* For large devices */
+// @media only screen and (min-width: 1200px)
+
+/* For medium devices */
+// @media only screen and (min-width: 769px) and (max-width: 1199px)
+
+/* For medium and small devices */
+@media only screen and (max-width: 1199px)
+    .welcome
+        p
+            width: 50% !important
+    .services
+        .image
+            display: none !important
+    .about
+        .info
+            flex-direction: column !important
+            text-align: center
+            justify-content: center
+            .img
+                &::before,
+                &::after
+                    content: none !important
+            .info-text
+                width: 100% !important
+                .line
+                    margin: 50px auto !important
+    .contact
+        p,a
+            font-size: 1.5rem !important
+//         .footer-bottom
+//             p
+//                 text-align: center !important
+// /* For small devices */
+@media only screen and (max-width: 768px)
+    .section-header
+        font-size: 3rem !important
+        text-align: center
+    .span
+        margin-top: -30px !important
+        font-size: 0.9rem !important
+    .welcome
+        p
+            width: 100% !important
+    .services
+        text-align: center
+        .icon
+            flex-direction: column !important
+            justify-content: center
+        p
+            padding-left: 0 !important
+    .contact
+        p,a
+            font-size: 1.2rem !important
+        .social
+            align-items: center
+            span
+                font-size: 0.6rem !important
